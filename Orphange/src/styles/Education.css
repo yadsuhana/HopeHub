@@ -1,0 +1,121 @@
+.education-section-bg {
+  background: linear-gradient(135deg, #f8f9fa 60%, #e9ecef 100%);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(0,86,179,0.04);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.education-hero {
+  margin-bottom: 2.5rem;
+}
+.education-icon {
+  font-size: 2.5rem;
+  color: #007bff;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.education-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #0056b3;
+  margin-bottom: 0.2rem;
+}
+.education-underline {
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(90deg, #ffd700 0%, #ffb347 100%);
+  border-radius: 3px;
+  margin-bottom: 0.7rem;
+}
+.education-subtitle {
+  color: #555;
+  font-size: 1.15rem;
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+}
+.section-header {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0056b3;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+.education-card {
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,86,179,0.10);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #fff;
+  position: relative;
+}
+.education-card:hover {
+  transform: translateY(-7px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,86,179,0.18);
+}
+.card-title {
+  color: #007bff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.list-group-item {
+  border-left: none;
+  border-right: none;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.list-group-item:first-child {
+  border-top: none;
+}
+.list-group-item:last-child {
+  border-bottom: none;
+}
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+.img-fluid.education-hero-img {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,86,179,0.10);
+  max-width: 100%;
+  height: auto;
+}
+.education-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.education-list li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.07rem;
+  color: #444;
+}
+.education-list li svg {
+  margin-right: 0.5em;
+  font-size: 1.1em;
+}
+h1, h2, .section-header {
+  color: #0056b3;
+}
+@media (max-width: 768px) {
+  .img-fluid.education-hero-img {
+    margin-top: 2rem;
+  }
+  .education-title {
+    font-size: 1.5rem;
+  }
+  .section-header {
+    font-size: 1.1rem;
+  }
+} 

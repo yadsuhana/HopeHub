@@ -1,0 +1,141 @@
+.card, .contact-info-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card:hover, .contact-info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: #666;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 0.5rem 2rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.img-fluid {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #0056b3;
+}
+
+.contact-info-section, .contact-form-section {
+  background: #f8f9fa;
+  border-radius: 16px;
+  padding: 2rem 1rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.contact-icon {
+  font-size: 2.2rem;
+  color: #007bff;
+}
+
+.contact-form-section h2 {
+  color: #0056b3;
+  font-weight: 700;
+}
+
+.map-container {
+  height: 220px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-placeholder {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-link {
+  color: #fff;
+  background: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,86,179,0.10);
+}
+
+.social-link:hover {
+  background: #0056b3;
+  color: #fff;
+  text-decoration: none;
+}
+
+.form-control, .form-select {
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1.08rem;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.2rem rgba(0,86,179,0.15);
+}
+
+textarea.form-control {
+  min-height: 150px;
+}
+
+@media (max-width: 768px) {
+  .img-fluid {
+    margin-top: 2rem;
+  }
+  
+  .map-container {
+    height: 140px;
+  }
+  
+  .social-links {
+    flex-wrap: wrap;
+  }
+} 

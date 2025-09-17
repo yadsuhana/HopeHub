@@ -1,0 +1,186 @@
+.admin-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.admin-container h1 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.volunteers-list {
+    display: grid;
+    gap: 2rem;
+}
+
+.volunteer-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.volunteer-header h2 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+.status-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.status-badge.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-badge.approved {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-badge.rejected {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.volunteer-details {
+    margin-bottom: 1.5rem;
+}
+
+.volunteer-details p {
+    margin: 0.5rem 0;
+    color: #34495e;
+}
+
+.volunteer-details strong {
+    color: #2c3e50;
+}
+
+.volunteer-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.status-select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+.status-select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.admin-loading {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.admin-error {
+    text-align: center;
+    padding: 2rem;
+    color: #721c24;
+    background: #f8d7da;
+    border-radius: 4px;
+    margin: 2rem;
+}
+
+.admin-section {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.admin-section h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+}
+
+.messages-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.message-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #007bff;
+}
+
+.message-card h3 {
+    color: #0056b3;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.message-card p {
+    margin: 0.4rem 0;
+    color: #34495e;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.message-card strong {
+    color: #2c3e50;
+}
+
+.no-data {
+    text-align: center;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .volunteer-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .status-badge {
+        align-self: flex-start;
+    }
+
+    .admin-section {
+        padding: 1rem;
+    }
+
+    .admin-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .message-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .message-card p {
+        font-size: 0.9rem;
+    }
+} 

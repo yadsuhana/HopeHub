@@ -1,0 +1,241 @@
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #007bff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: #666;
+  line-height: 1.6;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+ul li:before {
+  content: "•";
+  color: #007bff;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 250px;
+  }
+}
+
+.children-section-bg {
+  background: linear-gradient(135deg, #f8f9fa 60%, #e9ecef 100%);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(0,86,179,0.04);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.children-header {
+  margin-bottom: 2.5rem;
+}
+.children-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.children-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #0056b3;
+  margin-bottom: 0.2rem;
+}
+.children-underline {
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(90deg, #ffd700 0%, #ffb347 100%);
+  border-radius: 3px;
+  margin-bottom: 0.7rem;
+}
+.children-subtitle {
+  color: #555;
+  font-size: 1.15rem;
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+}
+.child-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  padding: 0.35em 1em;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 12px 0 12px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  letter-spacing: 0.5px;
+}
+.child-card {
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,86,179,0.10);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #fff;
+  position: relative;
+}
+.child-card:hover {
+  transform: translateY(-7px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,86,179,0.18);
+}
+.child-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0056b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child-star {
+  font-size: 1.1em;
+  margin-right: 0.3em;
+}
+.child-age {
+  color: #555;
+  font-size: 1.08rem;
+  margin-bottom: 0.2rem;
+}
+.child-interests {
+  color: #007bff;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+.child-desc {
+  color: #444;
+  font-size: 1.01rem;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+.child-quote {
+  color: #888;
+  font-size: 1.01rem;
+  font-style: italic;
+  margin-top: 0.7rem;
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child-img-wrapper {
+  width: 100%;
+  height: 300px;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.child-img-wrapper.portrait {
+  height: 480px;
+}
+.card-img-top {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  background: #f8f9fa;
+  border-bottom: 2px solid #e9ecef;
+  display: block;
+  margin: 0 auto;
+}
+.card-img-top.portrait {
+  object-position: top;
+  padding-top: 10px;
+}
+.child-card-accent-warning {
+  border-top: 5px solid #ffc107;
+}
+.child-card-accent-primary {
+  border-top: 5px solid #007bff;
+}
+.child-card-accent-success {
+  border-top: 5px solid #28a745;
+}
+.children-divider {
+  width: 100%;
+  text-align: center;
+  margin: 2.5rem 0;
+}
+.divider-icon {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,86,179,0.08);
+  padding: 0.7em 1em;
+  font-size: 2rem;
+  display: inline-block;
+}
+.section-header {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0056b3;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+.children-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.children-list li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.07rem;
+  color: #444;
+}
+.children-list li svg {
+  margin-right: 0.5em;
+  font-size: 1.1em;
+}
+@media (max-width: 768px) {
+  .section-header {
+    font-size: 1.1rem;
+  }
+  .divider-icon {
+    font-size: 1.3rem;
+    padding: 0.5em 0.7em;
+  }
+} 
